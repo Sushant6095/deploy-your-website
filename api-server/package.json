@@ -1,5 +1,5 @@
 {
-  "name": "build-server",
+  "name": "api-server",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,9 +8,10 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "@aws-sdk/client-s3": "^3.670.0",
-    "kafkajs": "^2.2.4",
-    "mime-types": "^2.1.35"
+  "devDependencies": {
+    "@types/node": "^22.7.5",
+    "prisma": "^5.21.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
   }
 }
