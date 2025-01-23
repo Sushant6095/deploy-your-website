@@ -18,6 +18,28 @@ S.No	Service	PORT
 
 A scalable, modern deployment platform inspired by Vercel, designed to simplify the deployment and management of applications. This project leverages a powerful stack of technologies including Node.js, Docker, AWS ECS/ECR, Kafka, and ClickHouse to provide seamless, efficient, and reliable application hosting.
 
+
+
+## 🛠 Tech Stack
+
+- **Frontend**: Next.js
+- **Backend**: Next.js
+- **ORM**: Prisma
+- **Database**: PostgreSQL
+- **Video Handling**: Cloudinary
+- **Type Safety**: ZOD, react-hook-form
+- **Language**: TypeScript
+- **Authentication**: JWT
+
+## 🚀 Features
+
+1. **Video/Announcement Upload**: Users can upload videos and announcements.
+2. **Engagement**: Like, dislike, and comment on videos and announcements.
+3. **Bookmark/Watch Later**: Bookmark announcements and add videos to the watch later list.
+4. **Video Recommendations**: Personalized video recommendations based on tags.
+5. **Video Preview**: Hover over a video to get a quick preview.
+
+
 Features
 Fast Deployments: Quickly deploy applications using containerized services.
 Scalable Architecture: Built to scale seamlessly with Docker and AWS ECS.
