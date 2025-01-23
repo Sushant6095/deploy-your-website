@@ -52,37 +52,13 @@ At this point following services would be up and running:
 
 ## 🚀 Features
 
-1. **Video/Announcement Upload**: Users can upload videos and announcements.
-2. **Engagement**: Like, dislike, and comment on videos and announcements.
-3. **Bookmark/Watch Later**: Bookmark announcements and add videos to the watch later list.
-4. **Video Recommendations**: Personalized video recommendations based on tags.
+1. **Fast Deployments**: Quickly deploy applications using containerized services.
+2. **Real-Time Logs**: Track and analyze deployment events using Kafka and ClickHouse.
+3. **Scalable Architecture**: Built to scale seamlessly with Docker and AWS ECS
+4. **Multi-Region Support**: Deploy applications across multiple AWS regions.
 5. **Video Preview**: Hover over a video to get a quick preview.
 
 
-Features
-Fast Deployments: Quickly deploy applications using containerized services.
-Scalable Architecture: Built to scale seamlessly with Docker and AWS ECS.
-Real-Time Logs: Track and analyze deployment events using Kafka and ClickHouse.
-Multi-Region Support: Deploy applications across multiple AWS regions.
-Version Management: Manage versions of deployments efficiently.
-Developer-Friendly APIs: Expose simple REST APIs for deployment and application management.
-Tech Stack
-Backend
-Node.js: Core backend for handling APIs and business logic.
-Express.js: Framework for building REST APIs.
-Containerization
-Docker: Used to containerize applications for consistent deployment.
-Docker Compose: Manages multi-container setups for local development.
-Cloud Infrastructure
-AWS ECS/ECR: Elastic Container Service for orchestrating Docker containers, and Elastic Container Registry for storing Docker images.
-AWS S3: Storage for static assets and deployment logs.
-Data Pipeline
-Kafka: Message broker for processing and managing real-time deployment logs.
-ClickHouse: Fast and efficient analytics database for querying deployment metrics.
-Other Tools
-PostgreSQL: Database for storing deployment metadata.
-Redis: Caching layer for improved performance.
-Jest: Unit testing framework.
 
 
 ## **Environment Variables**
